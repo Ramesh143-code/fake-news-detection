@@ -1,0 +1,15 @@
+# Python virtual environment
+fake_news_env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Large model files
+*.jb
+
+# Large CSV files
+*.csv
+
+# Optional: environment variables
+.env
