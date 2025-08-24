@@ -16,8 +16,9 @@ if st.button("Check News"):
         prediction = model.predict(transform_input)
 
         if prediction[0] == 1:
-            st.success("The News is Real!")
+            st.success("✅ The News is Real!")
         else:
-            st.error("The News is Fake!")
+            st.error("❌ The News is Fake!")
     else:
+
         st.warning("Please enter some text to Analyze.")  # streamlit run app.py
